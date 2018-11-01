@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source_files  = "LCViewAdition/LCViewAdition/*.{h,m}"
-  s.source_files  = "Pod/LCViewAdition/**/*.{h,m}"
+  s.source_files  = "LCViewAdition/ViewAdition/*.{h,m}"
   s.exclude_files = ""
 
   # s.public_header_files = "Classes/**/*.h"
