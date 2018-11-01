@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LCViewAdition"
   s.version      = "1.0.0"
-  s.summary      = "这是View分类工具"
+  s.summary      = "View分类"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = {:type=>"MIT",:file=>"LICENSE"}
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LCViewAdition/*.{h,m}"
-  # s.exclude_files = ""
+  s.source_files  = "UIView+Additions/**/*.{h,m}"
+  s.exclude_files = ""
 
   # s.public_header_files = "Classes/**/*.h"
 
